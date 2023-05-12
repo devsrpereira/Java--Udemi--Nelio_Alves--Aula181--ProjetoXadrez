@@ -8,7 +8,7 @@ public class ChessPosition {
 
     public ChessPosition(char column, int row) {
         if (column < 'a' || column > 'h' || row < 1 || row > 8){
-            throw new ChessException("Error na instanciação ChessPosition: Valor valido é entre a1 e h8.");
+            throw new ChessException2("Error na instanciação ChessPosition: Valor valido é entre a1 e h8.");
         }
         this.column = column;
         this.row = row;
